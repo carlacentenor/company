@@ -1,0 +1,149 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    padding-bottom: 1em;
+    z-index: 99;
+}
+
+.menu li {
+    width: 25%;
+    float: left;
+    list-style: none;
+}
+
+.menu a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #868686;
+    font-weight: bold
+}
+
+.float-r {
+    float: right;
+}
+
+.over {
+    overflow: auto
+}
+
+.logo-img {
+    margin: 30px 0;
+}
+
+.social {
+    margin-top: -70px;
+    position: relative;
+    z-index: 2
+}
+
+.social a {
+    padding: 0 5px;
+}
+
+.block {
+    display: block
+}
+
+.car {
+    margin-top: 10em;
+}
+
+.title-1 {
+    color: #013e7d;
+    font-size: 25px;
+    font-weight: bold
+}
+
+.paraf-1 {
+    color: #013e7d;
+    font-size: 16px;
+    text-align: justify;
+    font-weight: 400;
+}
+
+.icono-v {
+    height: 16px;
+    width: 16px;
+}
+
+.margin-we {
+    margin: 50px 0;
+}
+
+.box-we{
+    padding: 1em 3em 1em 3em;
+    margin-top: 4em;
+}
+
+.box-d{
+    background-image: url('../images/fondo2.png');
+    height: 235px;
+    background-size: cover ;
+    background-position: center;
+}
+#box-1,#box-2,#box-3,#box-4{
+    transition: 1s;
+    cursor: pointer;
+}
+
+.box-l{
+    background-image: url('../images/fondo3.png');
+    height: 235px;
+    background-size: cover ;
+    background-position: center;
+}
+
+.box-hover{
+    background-image: url('../images/fondo1.png');
+    height: 235px;
+    background-size: cover ;
+    background-position: center;
+    
+}
+
+
+
+.text-iso{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.subtext-iso{
+    font-size: 20px;
+    color: white
+}
+
+.white{
+    color: white;
+    font-size: 14px
+}
+
+/* Estilos de boton de slider*/
+.slick-next{
+
+    height: 60px;
+    width: 60px;
+    background-image: url('../images/arrow-r.png');
+    background-repeat: no-repeat
+}
+
+
+
+.slick-prev{
+    height: 60px;
+    width: 60px;
+    background-image: url('../images/arrow-l.png');
+    background-repeat: no-repeat
+}
+
+.pad{
+    padding: 0 130px;
+}
