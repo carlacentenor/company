@@ -8,8 +8,8 @@ header {
     top: 0;
     width: 100%;
     background-color: white;
-    padding-bottom: 1em;
     z-index: 99;
+    box-shadow: 0px 0px 5px black
 }
 
 .menu li {
@@ -23,6 +23,10 @@ header {
     text-decoration: none;
     color: #868686;
     font-weight: bold
+}
+
+.logo-img-2{
+width: 180px;
 }
 
 .float-r {
@@ -52,7 +56,7 @@ header {
 }
 
 .car {
-    margin-top: 10em;
+    margin-top: 4em;
 }
 
 .title-1 {
@@ -74,76 +78,388 @@ header {
 }
 
 .margin-we {
-    margin: 50px 0;
+    margin: 0px 0;
 }
 
-.box-we{
+.box-we {
     padding: 1em 3em 1em 3em;
-    margin-top: 4em;
+    margin-top: 2em;
 }
 
-.box-d{
+.box-d {
     background-image: url('../images/fondo2.png');
     height: 235px;
-    background-size: cover ;
+    background-size: cover;
     background-position: center;
 }
-#box-1,#box-2,#box-3,#box-4{
+
+#box-1,
+#box-2,
+#box-3,
+#box-4 {
     transition: 1s;
     cursor: pointer;
 }
 
-.box-l{
+.box-l {
     background-image: url('../images/fondo3.png');
     height: 235px;
-    background-size: cover ;
+    background-size: cover;
     background-position: center;
 }
 
-.box-hover{
+.box-hover {
     background-image: url('../images/fondo1.png');
     height: 235px;
-    background-size: cover ;
+    background-size: cover;
     background-position: center;
-    
 }
 
-
-
-.text-iso{
+.text-iso {
     font-size: 30px;
     color: white;
     font-weight: bold;
 }
 
-.subtext-iso{
+.subtext-iso {
     font-size: 20px;
     color: white
 }
 
-.white{
+.white {
     color: white;
     font-size: 14px
 }
 
 /* Estilos de boton de slider*/
-.slick-next{
 
+.slick-next {
     height: 60px;
     width: 60px;
     background-image: url('../images/arrow-r.png');
     background-repeat: no-repeat
 }
 
-
-
-.slick-prev{
+.slick-prev {
     height: 60px;
     width: 60px;
     background-image: url('../images/arrow-l.png');
     background-repeat: no-repeat
 }
 
-.pad{
-    padding: 0 130px;
+.pad {
+    padding: 0 10px;
+}
+
+.title-section h2 {
+    font-weight: bold;
+    font-size: 30px;
+    color: #013e7d
+}
+
+.title-contact h2 {
+    color: #003786;
+    font-weight: bold
+}
+
+.subray {
+    height: 2px;
+    background-color: #003786;
+    width: 10%;
+}
+
+.text-contact {
+    color: #979797;
+    font-size: 14px
+}
+
+.title-section {
+    padding: 3em;
+}
+
+.margin-t {
+    margin-top: 7em;
+}
+
+.bor-1 {
+    border-bottom: 1px solid #979797;
+}
+
+.p-form {
+    padding: 0px 5px;
+}
+
+.form-style {
+    background-color: #f7f7f7;
+    border-radius: 5px;
+}
+
+.form-style:focus {
+    background-color: #f7f7f7;
+}
+
+textarea {
+    padding-bottom: 75px !important;
+}
+
+.btn-send {
+    padding: 10px 60px 10px 60px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #003786;
+    color: white;
+    font-size: 14px;
+}
+
+.slide-b {
+    padding-left: 60px;
+    padding-right: 60px
+}
+
+footer {
+    background-color: #015486;
+    padding-top: 25px;
+    padding-bottom: 25px
+}
+
+/* Carousel */
+
+.car-image {
+    height: 470px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.car-1 {
+    background-image: url('../images/slider11.jpg');
+}
+
+.car-2 {
+    background-image: url('../images/slider22.jpg');
+}
+
+.car-3 {
+    background-image: url('../images/slider33.jpg');
+}
+
+.text-white {
+    color: white
+}
+
+.text-form {
+    color: #545454;
+    padding-top: 25px;
+    margin-top: 20px;
+    padding-bottom: 25px;
+    margin-bottom: 20px
+}
+
+.btn-mobile {
+    width: 45px;
+    height: auto;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.line-hamburger {
+    width: 100%;
+    height: 3px;
+    float: left;
+    background: #003786;
+    margin: 4px 0;
+    border-radius: 50px
+}
+
+.logo-w {
+    width: 30%;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.img-logo-r {
+    width: 150px !important;
+    padding-top: 9px
+}
+
+
+.carousel-indicators li{
+    background-image: url('../images/icon2.png');
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 20px;
+    border: none;
+    margin: 0 2px;
+    background-color: transparent;
+    padding-left: 25px;
+
+}
+
+.carousel-indicators .active{
+    background-image: url('../images/icon1.png');
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 20px;
+    border: none;
+    margin: 0 2px;
+    background-color: transparent;
+    padding-left: 25px;
+    
+}
+
+.carousel-indicators li:hover{
+    background-image: url('../images/icon1.png');
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 20px;
+    border: none;
+    margin: 0 2px;
+    background-color: transparent;
+    padding-left: 25px;
+    cursor: pointer;
+}
+
+.car-3 h5 , .car-1 h5 ,.car-2 h5{
+    font-size: 30px;
+    color: #2c5485;
+    font-weight: bold
+}
+
+.carousel-caption{
+    top: 55px
+}
+
+.menu-hide .menu li a{
+font-size: 14px
+} 
+
+.menu-hide {
+    border-bottom: 1px solid  rgb(175, 175, 175)
+}
+
+/* Menu Azul mobile */
+
+.menu-mobile-blue{
+    z-index: 9999999;
+    position: fixed;
+    background: rgba(1,84,134,0.9);
+    right: 0;
+    overflow: hidden;
+    transition: all 0.4s;
+    height: 0%;
+    width: 0%;
+    top: 0  
+}
+
+.btn-close{
+    background-image: url('../images/x-movil.png');
+    font-size: 32px;
+    top: 19px;
+    color: white;
+    right: 21px;
+    position: absolute !important;
+    z-index: 999999;
+    height: 32px;
+    width: 32px;
+    cursor: pointer;
+}
+.menu-option a {
+    color: white;
+    font-size: 22px;
+    font-weight: 900
+}
+
+.menu-option{
+    height: 100vh
+}
+
+.text-menu-mobile a {
+text-decoration: none;
+}
+
+
+.close button {
+    background: transparent !important;
+    border: none;
+    outline: none
+}
+
+
+.hide-header{
+    display: none !important;
+}
+
+.p-hide{
+display: none !important; 
+}
+
+@media (min-width: 768px) {
+    .p-hide{
+        display: block ;
+    }
+    header {
+        box-shadow: 0px 0px 0px white;
+        padding-bottom: 15px
+    }
+    .car {
+        margin-top: 10em;
+    }
+    .pad {
+        padding: 0 130px;
+    }
+    
+    .title-section {
+        padding: 5em;
+    }
+    .slide-b {
+        padding-left: 100px;
+        padding-right: 100px
+    }
+    .car-image {
+        height: 600px;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat
+    }
+    .margin-we {
+        margin: 50px 0;
+    }
+    .box-we {
+        padding: 1em 3em 1em 3em;
+        margin-top: 4em;
+    }
+
+    .car-3 h5 , .car-1 h5 ,.car-2 h5{
+        font-size: 35px;
+        color: #2c5485;
+        font-weight: bold
+    }
+    .carousel-caption{
+        width: 395px;
+        text-align: left;
+    }
+    .carousel-caption p{
+        font-size: 18px;
+    }
+    .exp{
+        font-size: 43px !important; 
+    }
+    .car-1 .carousel-caption  {
+        left: 25%;
+    }
+    .car-3 .carousel-caption  {
+        left: 45%;
+    }
+    .p-form {
+        padding: 0px 100px;
+    }
+}
+
+@media (min-width: 992px) {
+    .p-form {
+        padding: 0px 300px;
+    }
 }
